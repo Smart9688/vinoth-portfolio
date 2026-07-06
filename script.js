@@ -177,6 +177,21 @@ const projectData = {
             "Integrated Google Maps Web API for locating engineer coordinates and geo-tagging ATM service points.",
             "Designed custom layouts for tracking SLA metrics, RMA dispatch tracking, and PDF ticketing reports."
         ]
+    },
+    4: {
+        title: "Multi-Level Integration AI Bots",
+        role: "Senior Programmer",
+        duration: "1.5 Years",
+        environment: "C# / .NET, Python, SQL Server 2019, LLM APIs, OCR / FCR, Telegram/WhatsApp/Teams Integration, RAG",
+        summary: "Developed a comprehensive Multi-Level AI Automation Platform that combines AI-powered chatbots, voice bots, document intelligence, email automation, and business workflow integration into a single intelligent ecosystem.",
+        bullets: [
+            "Engineered multi-level conversational AI chatbots for support, lead generation, and business workflows using C# and LLM APIs.",
+            "Integrated an AI Voice Bot with Interactive Voice Response (IVR) allowing natural voice interactions for inbound and outbound calls.",
+            "Built an Automated AI Email Reader that monitors incoming mails, classifies requests, extracts parameters, and triggers automated workflows.",
+            "Integrated AI-powered OCR (Optical Character Recognition) and FCR (Form Character Recognition) to extract structured key-value data from invoices, receipts, and IDs.",
+            "Implemented a Multi-Level AI PDF Reader using Retrieval-Augmented Generation (RAG) and vector databases, enabling semantic query search over document archives.",
+            "Configured connectors for Telegram, WhatsApp, and Microsoft Teams to interact with the AI bots seamlessly via webhooks."
+        ]
     }
 };
 
