@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vinoth K - Portfolio | Senior .NET Programmer & Team Lead with 4.5+ years of software development experience specializing in C#, ASP.NET, SQL Server, and AI Integrations.">
+    <meta name="keywords" content="Vinoth K, .NET Developer, Team Lead, Software Engineer Portfolio, ASP.NET, C#, SQL Server, DevExpress, Web API, Developer Chennai">
+    <meta name="author" content="Vinoth K">
+    
+    <!-- Open Graph / Social Media Preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Vinoth K | Senior .NET Programmer & Team Lead">
+    <meta property="og:description" content="Portfolio of Vinoth K, showcasing 4.5+ years of experience in enterprise application design, web APIs, database optimization, and AI integrations.">
+    <meta property="og:image" content="assets/developer_avatar.png">
+
+    <title>Vinoth K | Senior .NET Programmer & Team Lead</title>
+    
+    <!-- Google Fonts Preconnect & stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- --- NAVIGATION HEADER --- -->
+    <header>
+        <div class="nav-container">
+            <a href="#home" class="logo gradient-text">Vinoth.K</a>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- --- HERO SECTION --- -->
+    <section id="home">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="welcome">Welcome to my Space</span>
+                <h1>Hi, I'm <span class="gradient-text">Vinoth K</span></h1>
+                <div class="subtitle">
+                    <span id="roleText"></span><span class="typing-cursor">|</span>
+                </div>
+                <p class="desc">
+                    Senior .NET Programmer & Team Lead with 4.5+ years of experience. Specializing in architecting secure 3-tier solutions, building RESTful Web APIs, optimizing SQL Server, and integrating modern AI components to automate and enhance business logic.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                    </a>
+                    <button onclick="window.print()" class="btn btn-secondary">
+                        <i class="fa-solid fa-print"></i> View / Print CV
+                    </button>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:kumarvino777@gmail.com" class="social-icon" aria-label="Email Vinoth">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919688077441" class="social-icon" aria-label="Call Vinoth">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub Profile">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="LinkedIn Profile">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="avatar-wrapper">
+                    <img src="assets/developer_avatar.png" alt="Vinoth K - 3D Avatar" class="avatar-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- ABOUT ME SECTION --- -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <p>A brief look into my background, stats, education, and interests</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-info glass-card">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am a highly motivated software professional who loves building robust, performant web applications. My career objective is to work on challenging opportunities that allow me to enhance my engineering skills, strengthen my system design knowledge, and deliver products that exceed expectations.
+                    </p>
+                    <p>
+                        Through my experience as a Team Lead and Senior Programmer at Cogent Innovations, I have mastered the art of managing requirements, designing clean code structures, and delivering integrations that matter.
+                    </p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card glass-card">
+                            <span class="stat-number">4.5+</span>
+                            <span class="stat-label">Years Exp</span>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Major Projects</span>
+                        </div>
+                        <div class="stat-card glass-card">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Tech Stack</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-details glass-card">
+                    <h3>Personal Information</h3>
+                    <div class="details-list">
+                        <div class="detail-item">
+                            <span class="detail-label">Location</span>
+                            <span class="detail-value">Villupuram, TamilNadu</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email</span>
+                            <span class="detail-value">kumarvino777@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone</span>
+                            <span class="detail-value">+91 96880 77441</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Languages</span>
+                            <span class="detail-value">English, Tamil</span>
+                        </div>
+                    </div>
+
+                    <div class="interests">
+                        <h4>Personal Interests</h4>
+                        <div class="interests-tags">
+                            <div class="interest-tag">
+                                <i class="fa-solid fa-graduation-cap"></i> Browsing & Learning
+                            </div>
+                            <div class="interest-tag">
+                                <i class="fa-solid fa-plane"></i> Traveling
+                            </div>
+                            <div class="interest-tag">
+                                <i class="fa-solid fa-music"></i> Listening to Music
+                            </div>
+                            <div class="interest-tag">
+                                <i class="fa-solid fa-baseball-bat-ball"></i> Cricket
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- SKILLS SECTION --- -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <p>My toolkit for constructing scalable, enterprise-level web applications</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Category 1: Backend & Core -->
+                <div class="skills-category glass-card">
+                    <h3><i class="fa-solid fa-gears"></i> Backend & Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C# Programming</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ASP.NET & MVC</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Web APIs (REST & SOAP)</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">3-Tier Architecture</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Category 2: Databases & Tools -->
+                <div class="skills-category glass-card">
+                    <h3><i class="fa-solid fa-database"></i> Database & Scripting</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">SQL Server (2016-2021)</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript & jQuery</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5 & CSS3 / Bootstrap</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">DevExpress BI & UI Tools</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" data-width="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional tags section -->
+            <div style="margin-top: 3rem; text-align: center;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--text-secondary);">Other Skills & Ecosystems</h3>
+                <div class="skills-tags-container" style="justify-content: center;">
+                    <span class="badge">Postman API Testing</span>
+                    <span class="badge">SVN Version Control</span>
+                    <span class="badge">Python Django (Certified)</span>
+                    <span class="badge">Git / GitHub</span>
+                    <span class="badge">AI Integration (Chatbots, Speech)</span>
+                    <span class="badge">BI Dashboard Design</span>
+                    <span class="badge">Message Queues</span>
+                    <span class="badge">Windows Services</span>
+                    <span class="badge">Customer Support & Debugging</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- EXPERIENCE SECTION --- -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Work Experience & Education</h2>
+                <p>A chronological journey of my career progress and educational background</p>
+            </div>
+            
+            <div class="timeline-container">
+                
+                <!-- Work 1: Cogent Innovations -->
+                <div class="timeline-item timeline-item-left">
+                    <span class="timeline-date">Dec 2021 – Present</span>
+                    <div class="timeline-content glass-card" onclick="openWorkModal('lead')">
+                        <h3>Senior .NET Programmer & Team Lead</h3>
+                        <div class="timeline-company">Cogent Innovations Pvt Ltd, Chennai</div>
+                        <p class="timeline-desc">Leading a development team in building CRM, Warehouse, and Inventory management solutions. Architecting multi-tier Web APIs, payment systems, and integrations. Click to see details.</p>
+                    </div>
+                </div>
+
+                <!-- Education 1: Diploma -->
+                <div class="timeline-item timeline-item-right">
+                    <span class="timeline-date">Graduated April 2017</span>
+                    <div class="timeline-content glass-card">
+                        <h3>Diploma in Computer Engineering</h3>
+                        <div class="timeline-company">Government Diploma Engineering College (Anna University)</div>
+                        <p class="timeline-desc">Acquired core principles of computing, networks, and database design. Graduated with 67% marks. Sankarapuram, Villupuram.</p>
+                    </div>
+                </div>
+                
+                <div class="clear-fix"></div>
+
+                <!-- Education 2: HSC -->
+                <div class="timeline-item timeline-item-left">
+                    <span class="timeline-date">Completed April 2014</span>
+                    <div class="timeline-content glass-card">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <div class="timeline-company">Kabilar Boys Higher Secondary School (State Board)</div>
+                        <p class="timeline-desc">Completed high school education with 50% marks. Graduated in Division I. Tirukovilur, Villupuram.</p>
+                    </div>
+                </div>
+
+                <!-- Education 3: SSLC -->
+                <div class="timeline-item timeline-item-right">
+                    <span class="timeline-date">Completed April 2012</span>
+                    <div class="timeline-content glass-card">
+                        <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                        <div class="timeline-company">Denition Mention Higher Secondary School (Matriculation)</div>
+                        <p class="timeline-desc">Completed primary secondary school with 55% marks. Graduated in Division I. Santpet, Thirukovilur.</p>
+                    </div>
+                </div>
+                
+                <div class="clear-fix"></div>
+            </div>
+            
+            <!-- Certifications subsection -->
+            <div style="margin-top: 4rem; text-align: center; max-width: 600px; margin-left: auto; margin-right: auto;" class="glass-card">
+                <h3><i class="fa-solid fa-award gradient-text"></i> Additional Certifications</h3>
+                <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.95rem;">
+                    Completed specialized training at <strong>Accord Info Matrix Training Institute</strong>. 
+                    Certified in <strong>C#.Net</strong> and <strong>Python Django Frameworks</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- PROJECTS SECTION --- -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Major enterprise projects designed, developed, and delivered during my 4.5-year career</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: AOC India (Philips) -->
+                <div class="project-card glass-card">
+                    <div class="project-meta">
+                        <i class="fa-solid fa-laptop-code project-icon"></i>
+                        <span class="project-duration">1.5 Years</span>
+                    </div>
+                    <h3>AOC India (Philips)</h3>
+                    <div class="project-role">Senior Programmer & Team Lead</div>
+                    <p class="project-desc">
+                        Led the development and expansion of an international CRM, Warehouse, and Inventory Management system deployed in Philips India and Malaysia. Integrated custom AI bots, email automation tools, and complex DevExpress BI dashboards.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">SQL Server 2021</span>
+                        <span class="project-tag">DevExpress BI</span>
+                        <span class="project-tag">AI Integration</span>
+                    </div>
+                    <button class="project-more-btn" onclick="openProjectModal(1)">
+                        Read Details <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Project 2: MMS -->
+                <div class="project-card glass-card">
+                    <div class="project-meta">
+                        <i class="fa-solid fa-credit-card project-icon"></i>
+                        <span class="project-duration">1.5 Years</span>
+                    </div>
+                    <h3>Merchant Management System (MMS)</h3>
+                    <div class="project-role">Senior Programmer</div>
+                    <p class="project-desc">
+                        Designed and built payment gateway integrations connecting SBI and Axis merchant swiping machines. Engineered SOAP and REST APIs, windows back-end services, and message queues to process transactions securely and reliably.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">SQL Server 2019</span>
+                        <span class="project-tag">Web & Windows Services</span>
+                        <span class="project-tag">APIs</span>
+                    </div>
+                    <button class="project-more-btn" onclick="openProjectModal(2)">
+                        Read Details <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Project 3: Service CRM -->
+                <div class="project-card glass-card">
+                    <div class="project-meta">
+                        <i class="fa-solid fa-screwdriver-wrench project-icon"></i>
+                        <span class="project-duration">1.5 Years</span>
+                    </div>
+                    <h3>Service CRM</h3>
+                    <div class="project-role">Junior Programmer</div>
+                    <p class="project-desc">
+                        Contributed to a comprehensive service management application tracking ATM accounts, ticket lifecycles, preventive maintenance schedules, and billing. Integrated Google Maps APIs for technician tracking and geo-tagging.
+                    </p>
+                    <div class="project-tags">
+                        <span class="project-tag">C#</span>
+                        <span class="project-tag">SQL Server 2016</span>
+                        <span class="project-tag">JavaScript / jQuery</span>
+                        <span class="project-tag">Google Maps</span>
+                    </div>
+                    <button class="project-more-btn" onclick="openProjectModal(3)">
+                        Read Details <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- CONTACT SECTION --- -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Let's talk about new opportunities, project ideas, or collaborations</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info glass-card">
+                    <h3>Contact Information</h3>
+                    <p style="color: var(--text-secondary);">
+                        Feel free to drop a message. I am usually responsive via email or phone. I'm open to permanent remote, hybrid, or relocation roles.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <a href="mailto:kumarvino777@gmail.com" class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Email Me</h4>
+                                <p>kumarvino777@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <a href="tel:+919688077441" class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Call Me</h4>
+                                <p>+91 96880 77441</p>
+                            </div>
+                        </a>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-card-content">
+                                <h4>Current Location</h4>
+                                <p>Villupuram, TamilNadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-card glass-card">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" onsubmit="handleContactSubmit(event)">
+                        <div class="form-group">
+                            <input type="text" id="formName" class="form-input" required>
+                            <label for="formName" class="form-label">Full Name</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="formEmail" class="form-input" required>
+                            <label for="formEmail" class="form-label">Email Address</label>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="formMessage" class="form-input" required></textarea>
+                            <label for="formMessage" class="form-label">Message Details</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FOOTER --- -->
+    <footer>
+        <div class="container footer-content">
+            <div class="logo gradient-text" style="font-size: 1.75rem;">Vinoth K</div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">&copy; 2026 Vinoth K. Crafted with modern web standards.</p>
+        </div>
+    </footer>
+
+    <!-- --- PORTFOLIO PROJECT & WORK DETAIL MODAL --- -->
+    <div class="modal" id="detailModal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" onclick="closeModal()" aria-label="Close details dialog">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="modalInnerContent">
+                <!-- Injected dynamically by JS based on clicked item -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
