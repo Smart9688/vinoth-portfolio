@@ -183,7 +183,7 @@ const projectData = {
         role: "Senior Programmer",
         duration: "1.5 Years",
         environment: "C# / .NET, Python, SQL Server 2019, LLM APIs, OCR / FCR, Telegram/WhatsApp/Teams Integration, RAG",
-        summary: "Developed a comprehensive Multi-Level AI Automation Platform that combines AI-powered chatbots, voice bots, document intelligence, email automation, and business workflow integration into a single intelligent ecosystem.",
+        summary: "Developed a comprehensive Multi-Level AI Automation Platform that integrates AI chatbots, IVR voice bots, automated email processing, OCR/FCR document recognition, AI-powered PDF analysis, and enterprise messaging into a unified solution. The platform automates customer interactions, document processing, email management, and business workflows while enabling seamless communication through Telegram, WhatsApp, and Microsoft Teams. Powered by advanced AI and Large Language Models (LLMs), it delivers intelligent responses, workflow automation, real-time insights, and scalable business operations across multiple channels.",
         bullets: [
             "Engineered multi-level conversational AI chatbots for support, lead generation, and business workflows using C# and LLM APIs.",
             "Integrated an AI Voice Bot with Interactive Voice Response (IVR) allowing natural voice interactions for inbound and outbound calls.",

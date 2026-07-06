@@ -815,6 +815,35 @@ body.light-mode .theme-toggle .fa-sun {
     height: 100%;
 }
 
+.project-card.featured {
+    border-color: rgba(var(--accent-secondary-rgb), 0.4);
+    box-shadow: 0 8px 32px 0 rgba(var(--accent-secondary-rgb), 0.15);
+    background: linear-gradient(to bottom, rgba(15, 17, 26, 0.7), rgba(20, 184, 166, 0.05));
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card.featured::before {
+    content: 'FEATURED';
+    position: absolute;
+    top: 15px;
+    right: -30px;
+    background: linear-gradient(135deg, var(--accent-secondary) 0%, var(--accent-primary) 100%);
+    color: #ffffff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 0.25rem 2.5rem;
+    transform: rotate(45deg);
+    letter-spacing: 1px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+body.light-mode .project-card.featured {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.85), rgba(13, 148, 136, 0.08));
+    border-color: rgba(var(--accent-secondary-rgb), 0.3);
+    box-shadow: 0 8px 32px 0 rgba(var(--accent-secondary-rgb), 0.1);
+}
+
 .project-meta {
     display: flex;
     justify-content: space-between;
