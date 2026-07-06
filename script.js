@@ -180,8 +180,8 @@ const projectData = {
     },
     4: {
         title: "Multi-Level Integration AI Bots",
-        role: "Senior Programmer",
-        duration: "1.5 Years",
+        role: "Freelance AI Consultant & Developer",
+        duration: "Freelance Project",
         environment: "C# / .NET, Python, SQL Server 2019, LLM APIs, OCR / FCR, Telegram/WhatsApp/Teams Integration, RAG",
         summary: "Developed a comprehensive Multi-Level AI Automation Platform that integrates AI chatbots, IVR voice bots, automated email processing, OCR/FCR document recognition, AI-powered PDF analysis, and enterprise messaging into a unified solution. The platform automates customer interactions, document processing, email management, and business workflows while enabling seamless communication through Telegram, WhatsApp, and Microsoft Teams. Powered by advanced AI and Large Language Models (LLMs), it delivers intelligent responses, workflow automation, real-time insights, and scalable business operations across multiple channels.",
         bullets: [
@@ -196,6 +196,18 @@ const projectData = {
 };
 
 const workData = {
+    'freelance': {
+        title: "Freelance AI Integration Specialist & Consultant",
+        company: "Independent AI Consulting",
+        duration: "2024 – Present",
+        summary: "Providing end-to-end AI consulting, system integrations, and conversational agent architecture. Partnering with businesses to deploy intelligent assistants, automate workflows, and integrate document/form intelligence.",
+        bullets: [
+            "Architected and deployed custom Large Language Model (LLM) agents and chatbots for automated customer support and scheduling.",
+            "Designed and implemented retrieval engines using Retrieval-Augmented Generation (RAG) to query proprietary databases and document archives.",
+            "Built form processing services utilizing AI-based OCR/FCR to automate text extraction from scanned receipts, invoices, and ID cards.",
+            "Integrated multi-channel conversational bots with Telegram, WhatsApp, and Microsoft Teams to streamline internal communications."
+        ]
+    },
     'lead': {
         title: "Senior Dot Net Programmer & Team Lead",
         company: "Cogent Innovations Pvt Ltd, Chennai",
